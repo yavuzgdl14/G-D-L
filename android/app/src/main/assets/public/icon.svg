@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background Squircle -->
+  <rect x="32" y="32" width="448" height="448" rx="105" fill="#1d1f22" />
+  
+  <g transform="translate(0, -10)">
+    <!-- Elegant Sweeping Ground Line -->
+    <path d="M 170 316 Q 256 308 342 316 C 310 312, 202 312, 170 316 Z" fill="#ffffff" />
+    
+    <!-- Outer Arch Door Frame -->
+    <path d="M 206 312 L 206 182 A 16 16 0 0 1 222 166 L 290 166 A 16 16 0 0 1 306 182 L 306 312" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+          
+    <!-- Open Door Panel (Perspective Polygon) -->
+    <polygon points="222,180 294,170 294,296 222,308" fill="#ffffff" />
+    
+    <!-- Doorknob -->
+    <circle cx="280" cy="236" r="5.5" fill="#1d1f22" />
+  </g>
+  
+  <!-- Centered Bold Title -->
+  <text x="256" y="416" 
+        fill="#ffffff" 
+        font-size="39" 
+        font-weight="800" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        text-anchor="middle" 
+        letter-spacing="3.5">GÜDÜL STOK</text>
+</svg>

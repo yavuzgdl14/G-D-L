@@ -1,0 +1,6 @@
+{
+  "name": "Güdül Ticaret Stok",
+  "description": "Güdül Ticaret için çevrimdışı, profesyonel mobil uyumlu stok takip sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
